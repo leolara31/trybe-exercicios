@@ -1,25 +1,25 @@
 p {
-    color: rgb(26, 218, 42);
-    font-size: 30px;
+  color: rgb(26, 218, 42);
+  font-size: 30px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
+  text-align: center;
+  font-size: 50px;
 }
 
 .primeira {
-    color: rgb(216, 216, 33);
+  color: rgb(216, 216, 33);
 }
 
 .segunda {
-    color: red;
+  color: red;
 }
 
 .terceira {
-    color: saddlebrown;
+  color: saddlebrown;
 }
 
 ul {
-    font-size: 20px;
+  font-size: 20px;
 }
