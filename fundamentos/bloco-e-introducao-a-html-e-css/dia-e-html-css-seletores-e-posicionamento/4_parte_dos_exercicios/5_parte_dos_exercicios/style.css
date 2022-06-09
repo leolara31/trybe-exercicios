@@ -1,0 +1,24 @@
+ol {
+    background-color: rgb(238, 238, 37);
+}
+
+.pares {
+    color: green;
+}
+
+.impar {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    color: red;
+}
+
+.titulo {
+    font-size: 40px;
+    border: 1px black solid;
+}
+
+li {
+    font-size: 20px;
+}
