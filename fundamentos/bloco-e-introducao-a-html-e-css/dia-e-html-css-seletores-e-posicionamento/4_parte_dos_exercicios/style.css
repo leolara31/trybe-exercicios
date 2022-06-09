@@ -1,0 +1,28 @@
+.primeira-cor :hover {
+    background-color: red;
+}
+
+.segunda-cor :hover {
+    background-color: blue;
+}
+
+.terceira-cor :hover {
+    background-color: yellow;
+
+}
+
+.cor-complementar {
+    font-size: 30px;
+}
+
+.quarta-cor :hover {
+    background-color: black;
+}
+
+.quinta-cor :hover {
+    background-color: aquamarine;
+}
+
+h3 {
+    border: 1px solid red;
+}
