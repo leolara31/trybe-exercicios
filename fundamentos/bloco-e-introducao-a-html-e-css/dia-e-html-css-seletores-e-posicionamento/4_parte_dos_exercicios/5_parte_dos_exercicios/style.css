@@ -22,3 +22,15 @@ h1, h3 {
 li {
     font-size: 20px;
 }
+
+.lista-italico {
+    font-weight: bold;
+}
+
+.linguagens {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
