@@ -52,3 +52,19 @@ switch(unicoValor) {
     default:
         console.log('zero')
 }
+
+//exercicio 5
+
+const angulo1 = 120
+const angulo2 = 30
+const angulo3 = 30
+
+if(angulo1 + angulo2 + angulo3 == 180) {
+    console.log('true');
+}else if(angulo1 + angulo2 + angulo3 > 180) {
+    console.log('false')
+}else if(angulo1 + angulo2 + angulo3 > 180) {
+    console.log('false')
+}else {
+    console.log('erro')
+}
