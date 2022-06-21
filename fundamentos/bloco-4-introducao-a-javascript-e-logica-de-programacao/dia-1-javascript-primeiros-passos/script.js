@@ -59,12 +59,13 @@ const angulo1 = 120
 const angulo2 = 30
 const angulo3 = 30
 
-if(angulo1 + angulo2 + angulo3 == 180) {
+if(angulo1 + angulo2 + angulo3 === 180) {
     console.log('true');
-}else if(angulo1 + angulo2 + angulo3 > 180) {
+}else if(angulo1 + angulo2 + angulo3 !== 180 ) {
     console.log('false')
-}else if(angulo1 + angulo2 + angulo3 > 180) {
-    console.log('false')
-}else {
+}
+else {
     console.log('erro')
 }
+
+//exercicio 6
