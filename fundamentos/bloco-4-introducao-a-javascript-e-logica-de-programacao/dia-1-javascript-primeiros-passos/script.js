@@ -35,3 +35,20 @@ if(number1 > number2 && number1 > number3) {
 }else {
     console.log('nao tem maior numero entre os 3')
 }
+
+//exercicio 4
+
+const unicoValor = 900
+
+switch(unicoValor) {
+    case '400':
+        console.log('falso');
+        break;
+
+    case '800':
+        console.log('verdadeiro');
+        break;
+
+    default:
+        console.log('zero')
+}
