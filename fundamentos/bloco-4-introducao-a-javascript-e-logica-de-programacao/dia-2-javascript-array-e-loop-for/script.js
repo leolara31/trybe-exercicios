@@ -13,3 +13,12 @@ for (index = 0; index < numbers.length; index += 1) {
   soma += numbers[index];
 }
 console.log(soma);
+
+//exercicio 3
+
+let numero = 0;
+
+for (index = 0; index < numbers.length; index += 1) {
+  numero += numbers[index];
+}
+console.log(soma / 2);
