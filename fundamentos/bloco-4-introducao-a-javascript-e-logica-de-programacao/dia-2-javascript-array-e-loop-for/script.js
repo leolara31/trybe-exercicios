@@ -14,14 +14,17 @@ for (index = 0; index < numbers.length; index += 1) {
 }
 console.log(soma);
 
-//exercicio 3
+//exercicio 3 e 4
 
 let numero = 0;
 
 for (index = 0; index < numbers.length; index += 1) {
   numero += numbers[index];
 }
-console.log(soma / 10);
+console.log(numero / 10);
 
-//exercicio 4
-
+if(numero > 20) {
+    console.log('valor maior que 20')
+}else {
+    console.log('valor menor ou igual a 20')
+}
