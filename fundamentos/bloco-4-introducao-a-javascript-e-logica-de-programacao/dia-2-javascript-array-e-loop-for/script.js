@@ -21,4 +21,7 @@ let numero = 0;
 for (index = 0; index < numbers.length; index += 1) {
   numero += numbers[index];
 }
-console.log(soma / 2);
+console.log(soma / 10);
+
+//exercicio 4
+
