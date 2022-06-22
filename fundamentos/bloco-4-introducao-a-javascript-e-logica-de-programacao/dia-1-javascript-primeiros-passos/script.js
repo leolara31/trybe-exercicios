@@ -41,23 +41,23 @@ if (number1 > number2 && number1 > number3) {
 const unicoValor = 900;
 
 if (unicoValor > 0) {
-  console.log('positive');
+  console.log("positive");
 } else if (unicoValor < 0) {
-  console.log('negative');
+  console.log("negative");
 } else {
-  console.log('zero');
-};
+  console.log("zero");
+}
 
 //exercicio 5
 
-const angulo1 = 120;
+const angulo1 = -190;
 const angulo2 = 30;
 const angulo3 = 30;
 
 if (angulo1 + angulo2 + angulo3 === 180) {
   console.log("true");
-} else if (angulo1 + angulo2 + angulo3 !== 180) {
-  console.log("false");
+} else if (angulo1 < 0 || angulo2 < 0 || angulo3 < 0) {
+  console.log("invalido");
 } else {
   console.log("erro");
 }
