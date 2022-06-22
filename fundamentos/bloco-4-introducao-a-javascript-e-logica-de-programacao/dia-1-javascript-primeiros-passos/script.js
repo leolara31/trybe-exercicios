@@ -40,18 +40,13 @@ if (number1 > number2 && number1 > number3) {
 
 const unicoValor = 900;
 
-switch (unicoValor) {
-  case "400":
-    console.log("falso");
-    break;
-
-  case "800":
-    console.log("verdadeiro");
-    break;
-
-  default:
-    console.log("zero");
-}
+if (unicoValor > 0) {
+  console.log('positive');
+} else if (unicoValor < 0) {
+  console.log('negative');
+} else {
+  console.log('zero');
+};
 
 //exercicio 5
 
