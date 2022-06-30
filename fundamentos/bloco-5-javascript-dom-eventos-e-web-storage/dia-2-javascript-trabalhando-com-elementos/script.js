@@ -9,3 +9,7 @@ document.body.appendChild(novaMain);
 let secao = document.createElement("section");
 secao.className = "center-content";
 novaMain.appendChild(secao);
+
+let paragrafo = document.createElement("p");
+secao.appendChild(paragrafo);
+paragrafo.innerText = "xablau";
