@@ -21,20 +21,28 @@ paragrafo.innerText = "xablau";
 //exercicio 5
 let secao2 = document.createElement("section");
 secao2.className = "left-content";
-novaMain.appendChild(secao2)
+novaMain.appendChild(secao2);
 
 //exercicio 6
 let secao3 = document.createElement("section");
 secao3.className = "right-content";
-novaMain.appendChild(secao3)
+novaMain.appendChild(secao3);
 
 //exercicio 7
 let imagem = document.createElement("img");
 imagem.className = "small-image";
-imagem.src = 'https://picsum.photos/200';
-secao2.appendChild(imagem)
+imagem.src = "https://picsum.photos/200";
+secao2.appendChild(imagem);
 
 //exercicio 8
 let lista = document.createElement("ul");
-lista.innerHTML = '<li>um</li><li>dois</li><li>três</li><li>quatro</li><li>cinco</li><li>seis</li><li>sete</li><li>oito</li><li>nove</li><li>dez</li>';
-secao3.appendChild(lista)
+lista.innerHTML =
+  "<li>um</li><li>dois</li><li>três</li><li>quatro</li><li>cinco</li><li>seis</li><li>sete</li><li>oito</li><li>nove</li><li>dez</li>";
+secao3.appendChild(lista);
+
+//exercicio 9
+//let  titulo = document.createElement("h3"); //poderia ter criado 3x repetindo linha {
+for (index = 0; index < 3; index += 1) {
+  let novoElemento = document.createElement("h3");
+  novaMain.appendChild(novoElemento);
+}
