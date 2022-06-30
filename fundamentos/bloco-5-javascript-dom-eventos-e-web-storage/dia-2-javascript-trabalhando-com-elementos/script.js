@@ -17,3 +17,7 @@ paragrafo.innerText = "xablau";
 let secao2 = document.createElement("section");
 secao2.className = "left-content";
 novaMain.appendChild(secao2)
+
+let secao3 = document.createElement("section");
+secao3.className = "right-content";
+novaMain.appendChild(secao3)
