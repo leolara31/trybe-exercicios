@@ -21,3 +21,8 @@ novaMain.appendChild(secao2)
 let secao3 = document.createElement("section");
 secao3.className = "right-content";
 novaMain.appendChild(secao3)
+
+let imagem = document.createElement("img");
+imagem.className = "small-image";
+imagem.src = 'https://picsum.photos/200';
+secao2.appendChild(imagem)
